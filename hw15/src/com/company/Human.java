@@ -19,6 +19,14 @@ public class Human {
 
     }
 
+    public Human(String name, String surname, int birthYear, char gender){
+        this.name = name;
+        this.surname = surname;
+        this.birthYear = birthYear;
+        this.gender = gender;
+
+    }
+
     public void info(){
         System.out.println("My name is " + name + " " + surname + ". I'm " + (currentYear - birthYear) + "years old. My gender:" + gender + ".");
         if(hobby != null){

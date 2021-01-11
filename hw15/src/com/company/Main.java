@@ -8,7 +8,7 @@ public class Main {
 	    Human human3 = new Human("Kazuto", "Kirigaya", 2000, 'M', "playing sword");
 	    Human human4 = new Human("Asuna", "Yuuki", 2001, 'F', "playing SAO");
 	    Human human5 = new Human("Shino", "Asada", 2001, 'F', "playing Gun Gale Online");
-	    Human human6 = new Human("Tsuboi", "Ryoutarou", 1999, 'M', "smt");
+	    Human human6 = new Human("Tsuboi", "Ryoutarou", 1999, 'M');
 	    Human human7 = new Human("Kayaba", "Akihiko", 1979, 'M', "game development");
 	    Human human8 = new Human("Alice", "Zuberg", 2017, 'F', "walking");
 	    Human human9 = new Human("Eugeo", "Zimmer", 2017, 'M', "cutting trees");
