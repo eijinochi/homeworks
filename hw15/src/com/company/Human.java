@@ -69,6 +69,4 @@ public class Human {
         return gender;
     }
 
-
-
 }
