@@ -33,7 +33,9 @@ public class Cow {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if(age > 0){
+            this.age = age;
+        }
     }
 
     public char getGender() {
