@@ -8,11 +8,18 @@ public class Group {
     int start;
     int duration;
 
+    public Group() {
+    }
+
     public Group(Student[] students, Course courses, int start, int duration){
         this.students = students;
         this.courses = courses;
         this.start = start;
         this.duration = duration;
+    }
+
+    public void printInfo(){
+        System.out.println("");
     }
 
     public void setStudents(Student[] students){
@@ -45,6 +52,12 @@ public class Group {
 
     public int getDuration(){
         return duration;
+    }
+
+    @Override
+    public String toString(){
+        String message = "It's a group of " + courses.name + " courses, which learn " + students.length + " students.";
+        return message;
     }
 
     

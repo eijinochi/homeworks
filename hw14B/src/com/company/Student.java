@@ -9,12 +9,16 @@ public class Student {
     int age;
     int birth;
 
-    public Student( String surname, String name, char gender, int age, int birth){
+    public Student() {
+    }
+
+    public Student(String surname, String name, char gender, int age, int birth){
         this.surname = surname;
         this.name = name;
         this.gender = gender;
         setAge(age);
         this.birth = birth;
+
     }
 
 
@@ -60,4 +64,13 @@ public class Student {
     public int getBirth() {
         return birth;
     }
+
+    @Override
+    public String toString(){
+        String message = "I am student " + this.name + " " + this.surname +
+                ". I'm " + this.age +
+                " years old.";
+        return message;
+    }
+
 }

@@ -8,6 +8,9 @@ public class Course {
     String groupId;
     String teacherName;
 
+    public Course() {
+    }
+
     public Course(String name, int create, String groupId, String teacherName){
         this.name = name;
         this.create = create;
@@ -45,5 +48,11 @@ public class Course {
 
     public String getTeacherName() {
         return teacherName;
+    }
+
+    @Override
+    public String toString(){
+        String message = "It's the " + this.name + " courses.";
+        return message;
     }
 }
